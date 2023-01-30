@@ -168,6 +168,12 @@ img {
   object-fit: cover; /* esto hará que la imagen ocupe todo el espacio */
 }
 
+@media screen and (max-width:600px){
+  .full-screen-image{
+    display: none;
+  }
+}
+
 
 #mu-header {
   background-color: #fff;
@@ -594,11 +600,15 @@ img {
  MENU ITEM SECTION
 ====================*/
 
+
+
+
 #mu-restaurant-menu {
   display: inline;
   float: left;
   width: 100%;
   padding: 100px 0;
+  margin-top: 10px;
 }
 
 .mu-restaurant-menu-area {
@@ -1228,21 +1238,7 @@ RESERVATION SECTION
   letter-spacing: 0.5px;
 }
 
-.mu-chef-nav .slick-list li .mu-single-chef .mu-single-chef-social {
-  background-color: #000;
-  position: absolute;
-  bottom: -100%;
-  left: 0;
-  right: 0;
-  padding: 23px 20px;
-  text-align: center;
-  opacity: 0;
-  -webkit-transition: all 0.5s;
-  -moz-transition: all 0.5s;
-  -ms-transition: all 0.5s;
-  -o-transition: all 0.5s;
-  transition: all 0.5s;
-}
+
 
 .mu-chef-nav .slick-list li .mu-single-chef .mu-single-chef-social a {
   display: inline-block;
@@ -1315,6 +1311,7 @@ RESERVATION SECTION
   float: left;
   font-family: "Open Sans", sans-serif;
   width: 100%;
+  
 }
 
 .mu-contact-left .form-group {
@@ -1327,27 +1324,14 @@ RESERVATION SECTION
   letter-spacing: 0.5px;
 }
 
-.mu-contact-form input[type="text"],
-.mu-contact-form input[type="email"] {
-  color: #000;
-  border-radius: 0;
-  height: 40px;
+
+.mu-contact-left .mu-contact-widget h3 {
+  border-bottom: 2px solid #FFA500;
+  margin-top: 0px;
+  padding-bottom: 10px;
+  display: inline-block;
 }
 
-.mu-contact-form input[type="text"]:focus,
-.mu-contact-form input[type="email"]:focus {
-  box-shadow: none;
-}
-
-.mu-contact-form textarea {
-  color: #000;
-  border-radius: 0;
-  padding: 10px;
-}
-
-.mu-contact-form textarea:focus {
-  box-shadow: none;
-}
 
 .mu-contact-right {
   display: inline;
