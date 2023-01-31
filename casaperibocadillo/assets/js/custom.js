@@ -1,11 +1,4 @@
 /** 
-  * Template Name: OsteriaX
-  * Version: 1 
-  * Template Scripts
-  * Author: MarkUps
-  * Author URI: http://www.markups.io/
-
-  Custom JS
   
 
   1. TOP SLIDER (SLICK SLIDER) 

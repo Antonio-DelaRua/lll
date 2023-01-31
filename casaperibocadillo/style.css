@@ -669,7 +669,7 @@ img {
 .mu-tab-content-right {
   display: inline;
   float: left;
-  padding-left: 15px;
+  padding-right: 15px;
   width: 100%;
 }
 
